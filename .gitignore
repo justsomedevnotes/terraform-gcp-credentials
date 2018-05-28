@@ -1,0 +1,7 @@
+.project
+*.json
+*.log
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
