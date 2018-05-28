@@ -52,13 +52,16 @@ gcloud auth application-default login
 It should prompt you for a verification code.  Just follow the link to retrieve the verification code and update the local gcloud credentials.  Once the gcloud credentials are set, terraform can execute using the default credentials and the provider.tf credentials entry can be removed or commented out.  Give the Testing the Credentials section a try.  
 
 ## Testing the Credentials
-Using the instance.tf file provided in the repository execute the below commands.
+Using the instance.tf file provided in the repository execute the below commands.  
+Initialize terraform...  
 ```console
 terraform init
 ```
+create the plan...  
 ```console
 terraform plan -out=plan
 ```
+apply the plan...  
 ```console
 terraform apply plan
 ```
