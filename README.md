@@ -1,5 +1,5 @@
 # Introduction
-This post is to cover various methods to configure terraform with Google Cloud Platform credentials.  It assumes the terraform project structure of provider.tf, variables.tf, terraform.tfvars, etc.  Terraform provider.tf, variables.tf, and instance.tf files are   provided in the repository.  The only file needed is the terraform.tfvars file which examples are given below on how to create.  
+This post covers various methods to configure terraform with Google Cloud Platform credentials.  It assumes the terraform project structure of provider.tf, variables.tf, terraform.tfvars, etc.  Terraform provider.tf, variables.tf, and instance.tf files are   provided in the repository.  The only file needed is the terraform.tfvars file which examples are given below on how to create.  
     
 ## Prerequisits
 A Vagrantfile is provided in the http://github.com/justsomedevnotes/terraform-gcp-credentials repository with required binaries.  
